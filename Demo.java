@@ -2,15 +2,6 @@
 public class Demo {
 	public static void main(String [] args){
 		
-		/*
-		 * 3.Да се обходим масива и в зависимост от това дали обекта е от тип
-		 * Person, Student или Employee да се извика съответно метода
-		 * showPersonInfo, showStudentInfo или showEmployeeInfo.
-		 * 4.Да се обходи още веднъж масива с хора и за всеки човек, който е
-		 * работник, да се изведе на екрана сумата, която му се дължи при 2
-		 * часа работа извън работно време.
-		 */
-		
 		Person [] people = new Person[10];
 		Person josh = new Person("Josh", 10, true);
 		Person jane = new Person("Jane", 18, false);
